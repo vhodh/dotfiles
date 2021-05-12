@@ -1,0 +1,56 @@
+# ~/.zshenv should only be a one-liner that sources this file
+# echo "source ~/.config/zsh/.zshenv" >| ~/.zshenv
+
+#Set ZSH dir
+export ZDOTDIR=~/.config/zsh
+
+# Default Apps
+export EDITOR=/usr/bin/micro
+export BROWSER=firefox
+export TERM=foot
+
+# Set XDG dirs
+export XDG_CONFIG_HOME=~/.config
+export XDG_CACHE_HOME=~/.cache
+export XDG_DATA_HOME=~/.local/share
+export XDG_DATA_DIRS=/usr/local/share:/usr/share
+export XDG_CONFIG_DIRS=/etc/xdg
+export XDG_DOWNLOAD_DIR=~/downloads
+export XDG_PICTURES_DIR=~/images
+export XDG_VIDEOS_DIR=~/videos
+export XDG_MUSIC_DIR=~/music
+export XDG_DESKTOP_DIR=~/desktop
+
+# Theme
+export GTK_THEME=Arc-Gruvbox
+export ICON_THEME=oomox-gruvbox-dark
+export CURSOR_THEME="Capitaine Cursors"
+export FONT_NAME="NotoSans Nerd Font"
+
+# Session
+export XDG_SESSION_TYPE=wayland
+export XDG_SESSION_DESKTOP=sway
+export XDG_CURRENT_DESKTOP=sway
+
+# SDL
+export SDL_VIDEODRIVER=wayland
+
+# GTK
+export MOZ_ENABLE_WAYLAND=1
+export MOZ_DBUS_REMOTE=1
+
+# Qt
+export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORMTHEME="qt5ct"
+#export QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
+#export QT_WAYLAND_FORCE_DPI=physical
+
+# Java
+export _JAVA_AWT_WM_NONREPARENTING=1
+export NO_AT_BRIDGE=1
+export BEMENU_BACKEND=wayland
+export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel {$_JAVA_OPTIONS}"
+
+# Elementary
+export ECORE_EVAS_ENGINE=wayland-egl
+export ELM_ENGINE=wayland_egl

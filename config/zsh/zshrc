@@ -1,0 +1,5 @@
+# Load Zsh-specific startup files
+for zsh in ~/.config/zsh/zshrc.d/*.zsh(N) ; do
+    [[ -e $zsh ]] || continue
+    source "$zsh"
+done

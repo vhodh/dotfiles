@@ -1,0 +1,19 @@
+set $workspace_www 1
+set $workspace_editor 2
+set $workspace_terminals 3
+set $workspace_documents 4
+set $workspace_multimedia 5
+set $workspace_chat 6
+set $workspace_terminal_right 7
+set $workspace_editor_right 8
+set $workspace_wiki 9
+
+workspace 1 output DVI-D-1
+workspace 2 output DVI-D-1
+workspace 3 output DVI-D-1
+workspace 4 output DVI-D-1
+workspace 5 output DVI-D-1
+workspace 6 output DVI-D-1
+workspace 7 output DP-3
+workspace 8 output DP-3
+workspace 9 output DP-3

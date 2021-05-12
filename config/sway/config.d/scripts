@@ -1,0 +1,2 @@
+# tamefox
+#exec [ -x $HOME/.config/sway/scripts/tamefox ] && $HOME/.config/sway/scripts/tamefox

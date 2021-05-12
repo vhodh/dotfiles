@@ -1,0 +1,5 @@
+# Displays
+output DVI-D-1 pos 0 0 res 2560x1440
+output DVI-D-1 bg ~/images/.wallpapers/wallhaven-nzz8zw.jpg fill
+output DP-3 pos 2560 -500 res 1920x1200 transform 90
+output DP-3 bg ~/images/.wallpapers/wallhaven-nzz8zw.jpg fill
