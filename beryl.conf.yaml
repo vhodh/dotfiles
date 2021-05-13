@@ -1,0 +1,87 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
+- link:
+    # gitconfig
+    ~/.gitconfig: gitconfig
+
+    # zsh
+    ~/.config/zsh/.zshenv: config/zsh/zshenv
+    ~/.config/zsh/.zshrc: config/zsh/zshrc
+    ~/.config/zsh/zshrc.d/aliash.zsh: config/zsh/zshrc.d/alias.zsh
+    ~/.config/zsh/zshrc.d/arch.zsh: config/zsh/zshrc.d/arch.zsh
+    ~/.config/zsh/zshrc.d/ssh-agent.zsh: config/zsh/zshrc.d/ssh-agent.zsh
+
+    # micro
+    ~/.config/micro/bindings.json: config/micro/bindings.json
+    ~/.config/micro/settings.json: config/micro/settings.json
+
+    # foot
+    ~/.config/foot/foot.ini: config/foot/foot.ini
+
+    # paru
+    ~/.config/paru/paru.conf: config/paru/paru.conf
+
+    # bat
+    ~/.config/bat/config: config/bat/config
+
+    # flashfocus
+    ~/.config/flashfocus/flashfocus.yml: config/flashfocus/flashfocus.yml
+
+    # gtk
+    ~/.config/gtk-3.0/settings.ini: config/gtk-3.0/settings.ini
+
+    # syncthing-gtk
+    ~/.config/syncthing-gtk/config.json: config/syncthing-gtk/config.json
+
+    # keepassxc
+    ~/.config/keepassxc/keepassxc.ini: config/keepassxc/keepassxc.ini
+
+    # mpv
+    ~/.config/mpv/mpv.conf: config/mpv/mpv.conf
+
+    ## sway config
+    # defaults
+    ~/.config/sway/config: config/sway/config
+    ~/.config/sway/config.d/default: config/sway/config.d/default
+    # autostarts
+    ~/.config/sway/config.d/autostarts: config/sway/config.d/autostarts
+    # scripts
+    ~/.config/sway/config.d/scripts: config/sway/config.d/scripts
+    # theme
+    ~/.config/sway/config.d/theme: config/sway/config.d/theme
+    # waybar
+    ~/.config/sway/config.d/waybar: config/sway/config.d/waybar
+    # window settings
+    ~/.config/sway/config.d/window_settings: config/sway/config.d/window_settings
+    # workspaces
+    ~/.config/sway/config.d/workspaces: config/sway/config.d/workspaces
+    # output
+    ~/.config/sway/config.d/output: config/sway/config.d/output_beryl
+    
+    ## sway scripts
+    # import gtk
+    ~/.config/sway/scripts/import-gsettings: config/sway/scripts/import-gsettings
+    # tamefox
+    ~/.config/sway/scripts/tamefox: config/sway/scripts/tamefox
+
+    ## sway apps
+    # mako
+    ~/.config/mako/config: config/mako/config
+    # swaylock
+    ~/.config/swaylock/config: config/swaylock/config
+    # sworkstyle
+    ~/.config/sworkstyle/config.toml: config/sworkstyle/config.toml
+    # waybar
+    ~/.config/waybar/config: config/waybar/config
+    ~/.config/waybar/style.css: config/waybar/style.css
+    # wofi
+    ~/.config/wofi/config: config/wofi/config
+    ~/.config/wofi/style.css: config/wofi/style.css

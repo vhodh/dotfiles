@@ -1,5 +1,5 @@
 # fix for nouveau drivers
-# export WLR_DRM_NO_MODIFIERS=1
+export WLR_DRM_NO_MODIFIERS=1
 
 # theming
 SWAY_CURSOR_THEME=Capitaine\ Cursors
