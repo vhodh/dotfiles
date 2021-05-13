@@ -7,6 +7,9 @@ alias c="clear"
 alias m="micro"
 alias _="sudo"
 
+# git
+alias gpom="git push origin main"
+
 ## exa
 alias ls="exa -laH --icons"
 alias lt="exa -laHTL2 --icons"
