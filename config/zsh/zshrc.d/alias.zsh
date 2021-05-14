@@ -1,6 +1,6 @@
 ## system upgrade
-alias upd="sudo reflector --save /etc/pacman.d/mirrorlist --country US --protocol https --latest 5 --age 2 --fastest 5 --sort rate && sudo pacman -Syu"
-alias upda="sudo reflector --save /etc/pacman.d/mirrorlist --country US --protocol https --latest 5 --age 2 --fastest 5 --sort rate && sudo paru"
+alias upd="sudo reflector --save /etc/pacman.d/mirrorlist --country US --protocol https --latest 10 --age 5 --fastest 5 --sort rate && sudo pacman -Syu"
+alias upda="sudo reflector --save /etc/pacman.d/mirrorlist --country US --protocol https --latest 10 --age 5 --fastest 5 --sort rate && sudo paru"
 
 ## single character shortcuts
 alias c="clear"

@@ -13,6 +13,7 @@
     ~/.gitconfig: gitconfig
 
     # zsh
+    ~/.zshenv: zshenv
     ~/.config/zsh/.zshenv: config/zsh/zshenv
     ~/.config/zsh/.zshrc: config/zsh/zshrc
     ~/.config/zsh/zshrc.d/alias.zsh: config/zsh/zshrc.d/alias.zsh
@@ -66,6 +67,8 @@
     ~/.config/sway/config.d/workspaces: config/sway/config.d/workspaces
     # output
     ~/.config/sway/config.d/output: config/sway/config.d/output_onyx
+    # input
+    ~/.config/sway/config.d/input: config/sway/config.d/input
 
     ## sway scripts
     # import gtk
@@ -81,7 +84,7 @@
     # sworkstyle
     ~/.config/sworkstyle/config.toml: config/sworkstyle/config.toml
     # waybar
-    ~/.config/waybar/config: config/waybar/config
+    ~/.config/waybar/config: config/waybar/config_onyx
     ~/.config/waybar/style.css: config/waybar/style.css
     # wofi
     ~/.config/wofi/config: config/wofi/config
