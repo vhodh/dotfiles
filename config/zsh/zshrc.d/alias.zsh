@@ -11,7 +11,7 @@ alias _="sudo"
 alias gpom="git push origin main"
 
 # dots
-alias dots="cd ~/.dotfiles"
+alias dots="cd ~/dev/dots"
 
 ## exa
 alias ls="exa -laH --icons"
