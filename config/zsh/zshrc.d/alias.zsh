@@ -10,6 +10,9 @@ alias _="sudo"
 # git
 alias gpom="git push origin main"
 
+# dots
+alias dots="cd ~/.dotfiles"
+
 ## exa
 alias ls="exa -laH --icons"
 alias lt="exa -laHTL2 --icons"
