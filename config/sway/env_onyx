@@ -1,0 +1,7 @@
+# fix for nouveau drivers
+# export WLR_DRM_NO_MODIFIERS=1
+
+# theming
+SWAY_CURSOR_THEME=Capitaine\ Cursors
+SWAY_CURSOR_SIZE=24
+export SWAY_CURSOR_THEME SWAY_CURSOR_SIZE
