@@ -49,6 +49,7 @@
 
     ## sway config
     # defaults
+    ~/.config/sway/env: config/sway/env_beryl
     ~/.config/sway/config: config/sway/config
     ~/.config/sway/config.d/default: config/sway/config.d/default
     # autostarts
