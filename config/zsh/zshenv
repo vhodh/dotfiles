@@ -22,8 +22,8 @@ export XDG_MUSIC_DIR=~/music
 export XDG_DESKTOP_DIR=~/desktop
 
 # Theme
-export GTK_THEME=Arc-Gruvbox
-export ICON_THEME=oomox-gruvbox-dark
+export GTK_THEME=Flat-Remix-GTK-Blue-Dark
+export ICON_THEME=Flat-Remix-Blue-Dark
 export CURSOR_THEME=capitaine-cursors
 export FONT_NAME="NotoSans Nerd Font"
 
