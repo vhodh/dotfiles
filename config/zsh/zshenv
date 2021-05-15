@@ -24,7 +24,7 @@ export XDG_DESKTOP_DIR=~/desktop
 # Theme
 export GTK_THEME=Arc-Gruvbox
 export ICON_THEME=oomox-gruvbox-dark
-export CURSOR_THEME="Capitaine Cursors"
+export CURSOR_THEME=capitaine-cursors
 export FONT_NAME="NotoSans Nerd Font"
 
 # Session
