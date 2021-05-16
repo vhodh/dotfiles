@@ -13,13 +13,6 @@ alias gpom="git push origin main"
 # dots
 alias dots="cd ~/dev/dots"
 
-# xplr
-alias x="xplr"
-alias xcd="cd '$(xplr)'"
-alias mx="micro $(xplr)"
-alias cpx="cp -var $(xplr) '$(xplr)'"
-alias mvx="mv -v $(fzf) '$(xplr)'"
-
 ## exa
 alias ls="exa -laH --icons"
 alias lt="exa -laHTL2 --icons"
