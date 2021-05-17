@@ -26,14 +26,18 @@ symbol = "💣 "
 format = '[\[$symbol$status\]]($style) '
 disabled = false
 
-# git
+# git branch
+[git_branch]
+symbol = "🌱 "
+truncation_length = 4
+truncation_symbol = ""
+
+# git commit
+[git_commit]
+commit_hash_length = 4
+tag_symbol = "🔖 "
+
 [git_status]
-conflicted = "🏳"
-ahead = "🏎💨"
-behind = "😰"
-diverged = "😵"
-untracked = "🤷‍"
-stashed = "📦"
-modified = "📝"
-renamed = "👅"
-deleted = "🗑"
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
