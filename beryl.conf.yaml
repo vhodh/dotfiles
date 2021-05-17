@@ -27,6 +27,9 @@
     # foot
     ~/.config/foot/foot.ini: config/foot/foot.ini_beryl
 
+    # starship
+    ~/.config/starship.toml: config/starship.toml_beryl
+
     # paru
     ~/.config/paru/paru.conf: config/paru/paru.conf
 

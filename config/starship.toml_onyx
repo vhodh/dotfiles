@@ -1,0 +1,60 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# makes prompt a single line
+[line_break]
+disabled = true
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# battery
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
+# "bold red" style when capacity is between 0% and 10%
+[[battery.display]]
+threshold = 10
+style = "bold red"
+
+# "bold yellow" style when capacity is between 10% and 30%
+[[battery.display]]
+threshold = 30
+style = "bold yellow"
+
+# Show command duration over 10,000 milliseconds (= 10 sec)
+[cmd_duration]
+min_time = 10_000
+format = "took [$duration]($style)"
+
+# replace characters
+[character]
+symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red) "
+use_symbol_for_status = true
+
+# Clear visibility for exit codes
+[status]
+style = "bg:red"
+symbol = "💣 "
+format = '[\[$symbol$status\]]($style) '
+disabled = false
+
+# git
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "🤷‍"
+stashed = "📦"
+modified = "📝"
+staged.value = "++"
+staged.style = "green"
+staged_count.enabled = true
+staged_count.style = "green"
+renamed = "👅"
+deleted = "🗑"

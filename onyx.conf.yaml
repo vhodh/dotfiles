@@ -27,6 +27,9 @@
     # foot
     ~/.config/foot/foot.ini: config/foot/foot.ini
 
+    # starship
+    ~/.config/starship.toml: config/starship.toml_onyx
+
     # paru
     ~/.config/paru/paru.conf: config/paru/paru.conf
 
