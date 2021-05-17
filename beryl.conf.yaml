@@ -33,6 +33,9 @@
     # bat
     ~/.config/bat/config: config/bat/config
 
+    # fontconfig
+    ~/.config/fontconfig/conf.d/56-twemoji-color.conf: config/fontconfig/conf.d/56-twemoji-color.conf
+
     # flashfocus
     ~/.config/flashfocus/flashfocus.yml: config/flashfocus/flashfocus.yml
 
