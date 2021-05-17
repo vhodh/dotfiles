@@ -16,7 +16,7 @@ format = "took [$duration]($style)"
 
 # replace characters
 [character]
-symbol = "[➜](bold green) "
+success_symbol = "[➜](bold green) "
 error_symbol = "[✗](bold red) "
 
 # Clear visibility for exit codes

@@ -11,19 +11,23 @@ disabled = true
 
 # battery
 [battery]
-full_symbol = "🔋"
-charging_symbol = "⚡️"
-discharging_symbol = "💀"
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
+unknown_symbol = ""
+empty_symbol = ""
 
 # "bold red" style when capacity is between 0% and 10%
 [[battery.display]]
 threshold = 10
 style = "bold red"
+discharging_symbol = "💀"
 
 # "bold yellow" style when capacity is between 10% and 30%
 [[battery.display]]
 threshold = 30
 style = "bold yellow"
+discharging_symbol = "🚨"
 
 # Show command duration over 10,000 milliseconds (= 10 sec)
 [cmd_duration]
@@ -32,9 +36,8 @@ format = "took [$duration]($style)"
 
 # replace characters
 [character]
-symbol = "[➜](bold green)"
+success_symbol = "[➜](bold green) "
 error_symbol = "[✗](bold red) "
-use_symbol_for_status = true
 
 # Clear visibility for exit codes
 [status]
@@ -52,9 +55,5 @@ diverged = "😵"
 untracked = "🤷‍"
 stashed = "📦"
 modified = "📝"
-staged.value = "++"
-staged.style = "green"
-staged_count.enabled = true
-staged_count.style = "green"
 renamed = "👅"
 deleted = "🗑"
