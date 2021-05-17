@@ -16,9 +16,8 @@ format = "took [$duration]($style)"
 
 # replace characters
 [character]
-symbol = "[➜](bold green)"
+symbol = "[➜](bold green) "
 error_symbol = "[✗](bold red) "
-use_symbol_for_status = true
 
 # Clear visibility for exit codes
 [status]
@@ -36,9 +35,5 @@ diverged = "😵"
 untracked = "🤷‍"
 stashed = "📦"
 modified = "📝"
-staged.value = "++"
-staged.style = "green"
-staged_count.enabled = true
-staged_count.style = "green"
 renamed = "👅"
 deleted = "🗑"
