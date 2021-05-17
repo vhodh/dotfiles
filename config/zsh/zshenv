@@ -30,7 +30,7 @@ export FONT_NAME="NotoSans Nerd Font"
 # Session
 export XDG_SESSION_TYPE=wayland
 export XDG_SESSION_DESKTOP=sway
-export XDG_CURRENT_DESKTOP=sway
+export XDG_CURRENT_DESKTOP=Unity
 
 # SDL
 export SDL_VIDEODRIVER=wayland
