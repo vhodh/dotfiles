@@ -3,3 +3,5 @@ for zsh in ~/.config/zsh/zshrc.d/*.zsh(N) ; do
     [[ -e $zsh ]] || continue
     source "$zsh"
 done
+
+eval "$(starship init zsh)"
