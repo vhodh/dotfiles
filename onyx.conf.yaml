@@ -31,7 +31,7 @@
     ~/.config/foot/foot.ini: config/foot/foot.ini_onyx
 
     # fontconfig
-    ~/.config/fontconfig/conf.d/56-twemoji-color.conf: config/fontconfig/conf.d/56-twemoji-color.conf
+   # ~/.config/fontconfig/conf.d/56-twemoji-color.conf: config/fontconfig/conf.d/56-twemoji-color.conf
 
     # starship
     ~/.config/starship.toml: config/starship.toml_onyx
