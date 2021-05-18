@@ -25,7 +25,7 @@ export XDG_DESKTOP_DIR=~/desktop
 export GTK_THEME=Flat-Remix-GTK-Blue-Dark
 export ICON_THEME=Flat-Remix-Blue-Dark
 export CURSOR_THEME=capitaine-cursors
-export FONT_NAME="NotoSans Nerd Font"
+export FONT_NAME="Consolas"
 
 # Session
 export XDG_SESSION_TYPE=wayland
