@@ -10,7 +10,8 @@ alias _="sudo"
 # git
 alias gpom="git push origin main"
 
-# dots
+# dev
+alias dev="cd ~/dev"
 alias dots="cd ~/dev/dots"
 
 ## exa
@@ -20,6 +21,13 @@ alias lt3="exa -laHTL3 --icons"
 
 ## media
 alias twi="reflex-curses"
+
+# suffixes
+alias -s md=code
+alias -s conf=code
+alias -s yaml=code
+alias -s yml=code
+alias -s css=code
 
 ## systemctl
 alias status='sys status'
