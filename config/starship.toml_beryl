@@ -16,7 +16,7 @@ format = "took [$duration]($style)"
 
 # replace characters
 [character]
-success_symbol = "[](bold green) "
+success_symbol = "[](bold blue) "
 error_symbol = "[✗](bold red) "
 
 # Clear visibility for exit codes
@@ -37,6 +37,7 @@ truncation_symbol = ""
 commit_hash_length = 4
 tag_symbol = "🔖 "
 
+# git status
 [git_status]
 ahead = "⇡${count}"
 diverged = "⇕⇡${ahead_count}⇣${behind_count}"
