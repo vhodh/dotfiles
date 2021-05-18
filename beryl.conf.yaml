@@ -93,3 +93,6 @@
     # wofi
     ~/.config/wofi/config: config/wofi/config
     ~/.config/wofi/style.css: config/wofi/style.css
+
+    # scripts
+    ~/.local/bin/waybar-progress: local/bin/waybar-progress
