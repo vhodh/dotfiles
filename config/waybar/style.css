@@ -8,16 +8,17 @@
 * {
   border: none;
   border-radius: 0;
-  font-family: Input, "Twitter Color Emoji";
+  font-family: Input, "FiraCode Nerd Font";
   font-size: 13px;
   min-height: 0;
 }
 
 window#waybar {
-  background: @background;
-  color: @foreground;
-  transition-property: background-color;
-  transition-duration: 0.5s;
+  background: shade(alpha(@borders, 0.9), 1.25);
+  border-bottom: 1px solid alpha(@unfocused_borders, 0.85);
+  /*background: linear-gradient(to top, shade(alpha(@borders, 0.95), 1.15), shade(alpha(@borders, 0.9), 1.25));*/
+  /*border-bottom: 1px solid alpha(@borders, 0.95);*/
+  color: mix(@theme_text_color, #C0C0C0, 0.25);
 }
 
 #workspaces button {
@@ -42,41 +43,20 @@ window#waybar {
   border-bottom: 3px solid @red;
 }
 
-#custom-usbguard,
-#custom-decrypted,
-#custom-updates,
-#custom-mail,
-#custom-vpn.off,
 #battery.warning,
 #memory.warning,
 #cpu.warning,
-#custom-dnd.on {
-  border-bottom: 3px solid @yellow;
-}
-
 #custom-systemd,
 #battery.critical,
 #memory.critical,
 #cpu.critical,
-#custom-yubikey,
-#custom-eyes,
-#custom-recording {
-  border-bottom: 3px solid @red;
-}
 
 #battery.charging {
   border-bottom: 3px solid @green;
 }
 
-#mode,
 #pulseaudio,
-#custom-usbguard,
-#custom-yubikey,
-#custom-eyes,
-#custom-decrypted,
 #custom-systemd,
-#custom-updates,
-#custom-mail,
 #network,
 #cpu,
 #memory,
@@ -85,16 +65,4 @@ window#waybar {
 #clock {
   padding: 0 6px;
   margin: 0 6px;
-}
-
-#custom-vpn,
-#custom-dnd,
-#language,
-#custom-recording {
-  padding: 0;
-  margin: 0 6px;
-}
-
-#tray {
-  margin-left: -1000000px;
 }
