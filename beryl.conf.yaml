@@ -61,6 +61,10 @@
     ~/.config/jftui/settings: config/jftui/settings
     ~/.config/jftui/mpv.conf: config/jftui/mpv.conf
 
+    # reflex-curses
+    ~/.config/reflex-curses/config: config/reflex-curses/config
+    ~/.config/reflex-curses/followed: config/reflex-curses/followed
+
     ## sway config
     # defaults
     ~/.config/sway/env: config/sway/env_beryl
