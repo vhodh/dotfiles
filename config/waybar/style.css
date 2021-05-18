@@ -4,6 +4,7 @@
 @define-color yellow     #fabd2f;
 @define-color red        #fb4934;
 @define-color green      #b8bb26;
+@define-color blue       #1E90FF;
 
 * {
   border: none;
@@ -30,7 +31,7 @@ window#waybar {
 }
 
 #workspaces button.focused {
-  border-bottom: 3px solid @green;
+  border-bottom: 3px solid @blue;
 }
 
 #workspaces button.urgent {
