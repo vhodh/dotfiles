@@ -24,8 +24,11 @@
     ~/.config/micro/bindings.json: config/micro/bindings.json
     ~/.config/micro/settings.json: config/micro/settings.json
 
+    # vscodium
+    ~/.config/VSCodium/User/settings.json: config/VSCodium/User/settings.json
+
     # foot
-    ~/.config/foot/foot.ini: config/foot/foot.ini
+    ~/.config/foot/foot.ini: config/foot/foot.ini_onyx
 
     # starship
     ~/.config/starship.toml: config/starship.toml_onyx
