@@ -5,7 +5,6 @@
     },
     "git.confirmSync": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 1,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Simple Dark",
     "editor.fontFamily": "'FiraCode Nerd Font','Twitter Color Emoji','Font Awesome 5 Free','Font Awesome 5 Brands'"
