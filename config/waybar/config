@@ -18,7 +18,7 @@
 
     "custom/progress": {
         "exec": "waybar-progress",
-        "return-type": "json",
+        "return-type": "text",
         "interval": 1
     },
     "custom/systemd": {

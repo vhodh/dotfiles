@@ -7,10 +7,24 @@ alias c="clear"
 alias m="micro"
 alias _="sudo"
 
-# git
+## safety
+alias cp="cp -irpv"
+alias ln="ln -iv"
+alias mv="mv -iv"
+alias chown="chown --preserve-root"
+alias chmod="chmod --preserve-root"
+alias chgrp="chgrp --preserve-root"
+alias mkdir="mkdir -pv"
+
+## cd-ing
+alias ..="cd .."
+alias ...="cd ../../../"
+alias ....="cd ../../../../"
+
+## git
 alias gpom="git push origin main"
 
-# dev
+## dev
 alias dev="cd ~/dev"
 alias dots="cd ~/dev/dots"
 
@@ -22,12 +36,11 @@ alias lt3="exa -laHTL3 --icons"
 ## media
 alias twi="reflex-curses"
 
-# suffixes
-alias -s md=code
-alias -s conf=code
-alias -s yaml=code
-alias -s yml=code
-alias -s css=code
+## firefox
+alias ff="firefox-nightly"
+
+## suffixes
+alias -s {md,conf,yaml,yml,css}=code
 
 ## systemctl
 alias status='sys status'
