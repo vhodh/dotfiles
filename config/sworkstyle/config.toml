@@ -26,14 +26,10 @@ fallback = ''
 "github" = { type = "generic", value = "" }
 "rust" = { type = "generic", value = "" }
 "vim" = { type = "generic", value = "" }
-"npm" = { type = "generic", value = "" }
-"node" = { type = "generic", value = "" }
-"yarn" = { type = "generic", value = "" }
-"thunderbird" = ""
-"Bitwarden" = ""
-"Google-chrome" = ""
-"Slack" = ""
-"Code" = ""
-"Alacritty" = ""
-"Spotify" = ""
+"keepassxc" = { type = "generic", value = "" }
+"Lightcord" = { type = "generic", value = "" }
+"chatterino" = { type = "generic", value = "" }
+"mpv" = { type = "generic", value = "" }
+"VSCodium" = ""
+"foot" = ""
 "firefox" = ""
