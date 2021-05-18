@@ -57,6 +57,10 @@
     # mpv
     ~/.config/mpv/mpv.conf: config/mpv/mpv.conf
 
+    # jellyfin
+    ~/.config/jftui/settings: config/jftui/settings
+    ~/.config/jftui/mpv.conf: config/jftui/mpv.conf
+
     ## sway config
     # defaults
     ~/.config/sway/env: config/sway/env_beryl

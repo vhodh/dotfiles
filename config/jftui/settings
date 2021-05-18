@@ -1,0 +1,8 @@
+server=http://192.168.1.4:9096
+token=93d6f2235b4e4196ba9e42515bad0c7a
+userid=e518b38abfc94a798728c3061e53e65f
+ssl_verifyhost=true
+client=jftui
+device=beryl
+deviceid=9377375
+version=0.5.1
