@@ -4,4 +4,6 @@ for zsh in ~/.config/zsh/zshrc.d/*.zsh(N) ; do
     source "$zsh"
 done
 
+export PATH="~/.local/bin"
+
 eval "$(starship init zsh)"
