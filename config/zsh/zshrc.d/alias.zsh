@@ -40,7 +40,7 @@ alias twi="reflex-curses"
 alias ff="firefox-nightly"
 
 ## suffixes
-alias -s {md,conf,yaml,yml,css}=code
+alias -s {md,conf,yaml,yml,css,js}="vscodium"
 
 ## systemctl
 alias status='sys status'
