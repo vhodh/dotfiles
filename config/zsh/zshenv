@@ -25,7 +25,7 @@ export XDG_DESKTOP_DIR=~/desktop
 export GTK_THEME=Flat-Remix-GTK-Blue-Dark
 export ICON_THEME=Flat-Remix-Blue-Dark
 export CURSOR_THEME=capitaine-cursors
-export FONT_NAME="FiraGO"
+export FONT_NAME="Inconsolata Nerd Font"
 
 # Session
 export XDG_SESSION_TYPE=wayland
