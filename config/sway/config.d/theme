@@ -9,7 +9,7 @@ smart_borders on
 hide_edge_borders --i3 none
 
 # font
-font pango:FiraCode Nerd Font Mono, Noto Color Emoji, Font Awesome 5 Free, Font Awesome 5 Brands
+font pango:FiraCode Nerd Font Mono, Font Awesome 5 Free, Font Awesome 5 Brands
 
 # import gtk theme
 exec_always ~/.config/sway/scripts/import-gsettings
