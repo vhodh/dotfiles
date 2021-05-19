@@ -29,7 +29,7 @@
         "interval": 10
     },
     "tray": {
-    	"icon-size": 10,
+    	"icon-size": 12,
     	"spacing": 5
     },
     "clock": {
@@ -52,7 +52,7 @@
     },
     "backlight": {
         "format": "<span foreground='#928374'>{icon}</span> {percent}%",
-        "format-icons": [""]
+        "format-icons": [""]
     },
     "battery": {
         "bat": "BAT0",
@@ -68,11 +68,11 @@
     "network": {
         "interval": 2,
         "interface": "wlan0",
-        "format-wifi": "<span foreground='#928374'></span> ({signalStrength}%) {essid}",
+        "format-wifi": "<span foreground='#928374'></span> {essid}",
         "format-ethernet": "<span foreground='#928374'></span> {ifname}",
         "format-linked": "<span foreground='#928374'></span> {ifname}",
         "format-disconnected": " <span foreground='#928374'></span> ",
-        "tooltip-format": "{ifname}: {ipaddr}/{cidr}\n {bandwidthDownBits}\n {bandwidthUpBits}"
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}\nwifi: {signalStrength}%\n {bandwidthDownBits}\n {bandwidthUpBits}"
     },
     "pulseaudio": {
         "format": "<span foreground='#928374'>{icon}</span> {volume}%   {format_source}",
