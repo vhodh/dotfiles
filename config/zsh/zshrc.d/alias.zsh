@@ -43,6 +43,8 @@ alias ff="firefox-nightly"
 alias -s {md,conf,yaml,yml,css,js}="vscodium"
 
 ## systemctl
+alias sys='sudo systemctl'
+alias sysu='sudo systemctl --user'
 alias status='sys status'
 alias statusu='sysu status'
 alias start='sys start'
