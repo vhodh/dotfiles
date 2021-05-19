@@ -40,7 +40,7 @@
     ~/.config/bat/config: config/bat/config
 
     # fontconfig
-    ~/.config/fontconfig/conf.d/56-twemoji-color.conf: config/fontconfig/conf.d/56-twemoji-color.conf
+    ~/.config/fontconfig/fonts.conf: config/fontconfig/fonts.conf
 
     # flashfocus
     ~/.config/flashfocus/flashfocus.yml: config/flashfocus/flashfocus.yml
@@ -59,6 +59,7 @@
 
     # jellyfin
     ~/.config/jftui/settings: config/jftui/settings
+      force: true
     ~/.config/jftui/mpv.conf: config/jftui/mpv.conf
 
     # reflex-curses
