@@ -6,8 +6,8 @@
         "sway/mode"
     ],
     "modules-right": [
-        "custom/pacman",
         "tray",
+        "custom/pacman",
         "pulseaudio",
         "network",
         "cpu",
@@ -15,11 +15,6 @@
         "clock"
     ],
 
-    "custom/progress": {
-        "exec": "waybar-progress",
-        "return-type": "text",
-        "interval": 1
-    },
     "custom/systemd": {
         "exec": "waybar-systemd",
         "return-type": "json",
@@ -75,7 +70,7 @@
         "on-click": "pavucontrol"
     },
     "custom/pacman": {
-    	"format": "{}  ",
+    	"format": "<span foreground='#928374'> {} </span>",
     	"interval": 3600,                     // every hour
     	"exec": "checkupdates | wc -l",       // # of updates
     	"exec-if": "exit 0",                  // always run; consider advanced run conditions

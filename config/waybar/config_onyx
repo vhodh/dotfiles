@@ -6,8 +6,6 @@
         "sway/mode"
     ],
     "modules-right": [
-        "custom/progress",
-        "custom/systemd",
         "tray",
         "pulseaudio",
         "backlight",
@@ -18,17 +16,13 @@
         "clock"
     ],
 
-    "custom/progress": {
-        "exec": "waybar-progress",
-        "return-type": "json",
-        "interval": 1
-    },
     "custom/systemd": {
         "exec": "waybar-systemd",
         "return-type": "json",
         "interval": 10
     },
     "tray": {
+        "format": "<span foreground='#928374'>{} </span>",
     	"icon-size": 12,
     	"spacing": 5
     },
@@ -91,6 +85,13 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "custom/pacman": {
+    	"format": "<span foreground='#928374'> {} </span>",
+    	"interval": 3600,                     // every hour
+    	"exec": "checkupdates | wc -l",       // # of updates
+    	"exec-if": "exit 0",                  // always run; consider advanced run conditions
+    	"signal": 8
     }
 }
 
