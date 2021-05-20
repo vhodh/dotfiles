@@ -58,7 +58,8 @@
     ~/.config/mpv/mpv.conf: config/mpv/mpv.conf
 
     # jellyfin
-    ~/.config/jftui/settings: config/jftui/settings
+    ~/.config/jftui/settings:
+      path: config/jftui/settings
       force: true
     ~/.config/jftui/mpv.conf: config/jftui/mpv.conf
 
