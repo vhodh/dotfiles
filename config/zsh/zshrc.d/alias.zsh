@@ -41,6 +41,7 @@ alias ff="firefox-nightly"
 
 ## suffixes
 alias -s {md,conf,yaml,yml,css,js}="vscodium"
+alias -s {gif,webm,jpg,png}="mpv"
 
 ## systemctl
 alias sys='sudo systemctl'
