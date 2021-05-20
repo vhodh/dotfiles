@@ -71,41 +71,55 @@
     ~/.config/reflex-curses/followed: config/reflex-curses/followed
 
     ## sway config
+
     # defaults
     ~/.config/sway/env: config/sway/env_beryl
     ~/.config/sway/config: config/sway/config
     ~/.config/sway/config.d/default: config/sway/config.d/default
+
     # autostarts
     ~/.config/sway/config.d/autostarts: config/sway/config.d/autostarts
+
     # scripts
     ~/.config/sway/config.d/scripts: config/sway/config.d/scripts
+
     # theme
     ~/.config/sway/config.d/theme: config/sway/config.d/theme
+
     # waybar
     ~/.config/sway/config.d/waybar: config/sway/config.d/waybar
+
     # window settings
     ~/.config/sway/config.d/window_settings: config/sway/config.d/window_settings
+
     # workspaces
     ~/.config/sway/config.d/workspaces: config/sway/config.d/workspaces
+
     # output
     ~/.config/sway/config.d/output: config/sway/config.d/output_beryl
     
     ## sway scripts
+
     # import gtk
     ~/.config/sway/scripts/import-gsettings: config/sway/scripts/import-gsettings
+
     # tamefox
     ~/.config/sway/scripts/tamefox: config/sway/scripts/tamefox
 
     ## sway apps
     # mako
     ~/.config/mako/config: config/mako/config
+
     # swaylock
     ~/.config/swaylock/config: config/swaylock/config
+
     # sworkstyle
     ~/.config/sworkstyle/config.toml: config/sworkstyle/config.toml
+
     # waybar
-    ~/.config/waybar/config: config/waybar/config
+    ~/.config/waybar/config: config/waybar/config_beryl
     ~/.config/waybar/style.css: config/waybar/style.css
+
     # wofi
     ~/.config/wofi/config: config/wofi/config
     ~/.config/wofi/style.css: config/wofi/style.css
