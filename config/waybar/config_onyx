@@ -9,6 +9,7 @@
         "tray",
         "pulseaudio",
         "backlight",
+        "custom/pacman",
         "network",
         "cpu",
         "memory",
@@ -69,10 +70,10 @@
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}\nwifi: {signalStrength}%\n {bandwidthDownBits}\n {bandwidthUpBits}"
     },
     "pulseaudio": {
-        "format": "<span foreground='#928374'>{icon}</span> {volume}%   {format_source}",
-        "format-bluetooth": "<span foreground='#928374'>{icon}</span> {volume}%   {format_source}",
-        "format-bluetooth-muted": "<span foreground='#928374'> {icon}</span>   {format_source}",
-        "format-muted": "<span foreground='#928374'></span>   {format_source}",
+        "format": "<span foreground='#928374'>{icon}</span> {volume}% {format_source}",
+        "format-bluetooth": "<span foreground='#928374'>{icon}</span> {volume}% {format_source}",
+        "format-bluetooth-muted": "<span foreground='#928374'> {icon}</span> {format_source}",
+        "format-muted": "<span foreground='#928374'></span> {format_source}",
         "format-source": "<span foreground='#928374'></span> {volume}%",
         "format-source-muted": "<span foreground='#928374'></span>",
         "format-icons": {
@@ -87,7 +88,7 @@
         "on-click": "pavucontrol"
     },
     "custom/pacman": {
-    	"format": "<span foreground='#928374'> {} </span>",
+    	"format": "<span foreground='#928374'> </span> {}",
     	"interval": 3600,                     // every hour
     	"exec": "checkupdates | wc -l",       // # of updates
     	"exec-if": "exit 0",                  // always run; consider advanced run conditions
