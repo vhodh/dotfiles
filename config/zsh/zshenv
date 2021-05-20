@@ -30,7 +30,7 @@ export FONT_NAME="Bitstream Vera Sans"
 # Session
 export XDG_SESSION_TYPE=wayland
 export XDG_SESSION_DESKTOP=sway
-export XDG_CURRENT_DESKTOP=Unity
+export XDG_CURRENT_DESKTOP=sway
 
 # SDL
 export SDL_VIDEODRIVER=wayland
