@@ -41,6 +41,9 @@
 
     # fontconfig
     ~/.config/fontconfig/fonts.conf: config/fontconfig/fonts.conf
+    ~/.config/fontconfig/conf.d/20-no-embedded.conf: config/fontconfig/conf.d/20-no-embedded.conf
+    ~/.config/fontconfig/conf.d/30-firefox.conf: config/fontconfig/conf.d/30-firefox.conf
+    ~/.config/fontconfig/conf.d/50-rendering.conf: config/fontconfig/conf.d/50-rendering.conf
 
     # flashfocus
     ~/.config/flashfocus/flashfocus.yml: config/flashfocus/flashfocus.yml
