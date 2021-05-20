@@ -12,3 +12,6 @@ exec tail -f $SWAYSOCK.wob | wob --border-color '#ffdcbb8c' --background-color '
 
 # flashfocus
 exec flashfocus
+
+# polkit
+exec_always /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
