@@ -30,6 +30,12 @@
     # foot
     ~/.config/foot/foot.ini: config/foot/foot.ini_beryl
 
+    # fontconfig
+    ~/.config/fontconfig/fonts.conf: config/fontconfig/fonts.conf
+    ~/.config/fontconfig/conf.d/20-no-embedded.conf: config/fontconfig/conf.d/20-no-embedded.conf
+    ~/.config/fontconfig/conf.d/30-firefox.conf: config/fontconfig/conf.d/30-firefox.conf
+    ~/.config/fontconfig/conf.d/50-rendering.conf: config/fontconfig/conf.d/50-rendering.conf
+
     # starship
     ~/.config/starship.toml: config/starship.toml_beryl
 
@@ -38,12 +44,6 @@
 
     # bat
     ~/.config/bat/config: config/bat/config
-
-    # fontconfig
-    ~/.config/fontconfig/fonts.conf: config/fontconfig/fonts.conf
-    ~/.config/fontconfig/conf.d/20-no-embedded.conf: config/fontconfig/conf.d/20-no-embedded.conf
-    ~/.config/fontconfig/conf.d/30-firefox.conf: config/fontconfig/conf.d/30-firefox.conf
-    ~/.config/fontconfig/conf.d/50-rendering.conf: config/fontconfig/conf.d/50-rendering.conf
 
     # flashfocus
     ~/.config/flashfocus/flashfocus.yml: config/flashfocus/flashfocus.yml
@@ -123,6 +123,3 @@
     # wofi
     ~/.config/wofi/config: config/wofi/config
     ~/.config/wofi/style.css: config/wofi/style.css
-
-    # scripts
-    ~/.local/bin/waybar-progress: local/bin/waybar-progress
