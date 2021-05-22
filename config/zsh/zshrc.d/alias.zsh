@@ -23,6 +23,7 @@ alias ....="cd ../../../../"
 
 ## git
 alias gpom="git push origin main"
+alias gull="git pull origin main"
 
 ## dev
 alias dev="cd ~/dev"
@@ -40,7 +41,7 @@ alias twi="reflex-curses"
 alias ff="firefox-nightly"
 
 ## suffixes
-alias -s {md,conf,yaml,yml,css,js}="vscodium"
+alias -s {md,conf,yaml,yml,css,js}="subl"
 alias -s {gif,webm,jpg,png}="mpv"
 
 ## systemctl
