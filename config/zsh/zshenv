@@ -6,7 +6,7 @@ export ZDOTDIR=~/.config/zsh
 
 # Default Apps
 export EDITOR=/usr/bin/micro
-export BROWSER=firefox
+export BROWSER=firefox-nightly
 export TERM=foot
 
 # Set XDG dirs
@@ -15,10 +15,10 @@ export XDG_CACHE_HOME=~/.cache
 export XDG_DATA_HOME=~/.local/share
 export XDG_DATA_DIRS=/usr/local/share:/usr/share
 export XDG_CONFIG_DIRS=/etc/xdg
-export XDG_DOWNLOAD_DIR=~/downloads
-export XDG_PICTURES_DIR=~/images
-export XDG_VIDEOS_DIR=~/videos
-export XDG_MUSIC_DIR=~/music
+export XDG_DOWNLOAD_DIR=~/down
+export XDG_PICTURES_DIR=~/media/images
+export XDG_VIDEOS_DIR=~/media/videos
+export XDG_MUSIC_DIR=~/media/music
 export XDG_DESKTOP_DIR=~/desktop
 
 # Theme
