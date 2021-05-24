@@ -70,6 +70,9 @@
     ~/.config/reflex-curses/config: config/reflex-curses/config
     ~/.config/reflex-curses/followed: config/reflex-curses/followed
 
+    # streamlink
+    ~/.config/streamlink/config: config/streamlink/config
+
     ## sway config
 
     # defaults
